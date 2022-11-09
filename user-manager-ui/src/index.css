@@ -1,0 +1,23 @@
+@font-face {
+  font-family: HeadingFont;
+  src: url(./assets/fonts/Orbitron-Regular.ttf);
+}
+
+@font-face {
+  font-family: PrimaryFont;
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "PrimaryFont" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
